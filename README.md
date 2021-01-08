@@ -1,2 +1,2 @@
-# Lab05aDeltaV201
-Lab 05a for DeltaV 201 course
+# Lab05DeltaV201
+Lab 05 for DeltaV 201 course
