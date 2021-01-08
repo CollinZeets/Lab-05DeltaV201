@@ -102,7 +102,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  //eslint-disable-line
+  let array = []
+  let numMul = multiply(multarr[0], multiply(multarr[1], multarr[2])[0])[0]
+  let prodStr = ('The numbers ' + multArr[0] + ',' + multArr[1] + ',' + multArr[2] + ' have a product of ' + numMul + '.')
+  array.push(numMul,prodStr)
+  return(array)
+  
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
