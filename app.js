@@ -45,15 +45,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) {
-  let sumAndMultiplyArray = [];
-  let sumNum = sum(a, b)[0] + c;
-  let mulNum = multiply(a, b)[0] * c;
-  let sumStr = a + " and " + b + " and " + c + " sum to " + sumNum + ".";
-  let prodStr =
-    "The product of " + a + " and " + b + " and " + c + " is " + mulNum + ".";
-  sumAndMultiplyArray.push(sumNum, mulNum, sumStr, prodStr);
-
-  return (sumAndMultiplyArray);
+  
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
